@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name = "EMPLOYEESUITE">
+<listeners>
+<listener class-name="utilities.Listener"/>
+</listeners>
+<test name = "EMPTest">
+<classes>
+<class name ="testcase.Getallemp"/>
+<class name ="testcase.Getoneemployee"/>
+<class name ="testcase.newemp"/>
+</classes>
+</test>
+</suite>

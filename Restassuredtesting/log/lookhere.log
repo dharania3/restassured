@@ -1,0 +1,213 @@
+~~~~~~~~~~~~~~~~~~~~~Starting to get all employee info~~~~~~~~~~~~~~~~~~~
+Get connection for route {}->http://restapiexample.com:80
+Connecting to restapiexample.com:80
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/v1/employees HTTP/1.1
+ >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: restapiexample.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/v1/employees HTTP/1.1
+>> Accept: */*
+>> Host: restapiexample.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Cache-Control: max-age=31536000[\r][\n]"
+ << "Content-Type: application/json[\r][\n]"
+ << "Date: Mon, 22 Mar 2021 11:11:39 GMT[\r][\n]"
+ << "Display: staticcontent_sol, staticcontent_sol[\r][\n]"
+ << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+ << "Referrer-Policy: [\r][\n]"
+ << "Response: 200[\r][\n]"
+ << "Server: nginx/1.16.0[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+ << "X-Ezoic-Cdn: Hit ds;mm;50f384a6c338c2c54f2a0041e485b435;2-133674-2;f3fe9dd3-1eb3-4822-62cc-b24b4b069622[\r][\n]"
+ << "X-Middleton-Display: staticcontent_sol, staticcontent_sol[\r][\n]"
+ << "X-Middleton-Response: 200[\r][\n]"
+ << "X-Sol: pub_site[\r][\n]"
+ << "Content-Length: 725[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Cache-Control: max-age=31536000
+<< Content-Type: application/json
+<< Date: Mon, 22 Mar 2021 11:11:39 GMT
+<< Display: staticcontent_sol, staticcontent_sol
+<< Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+<< Referrer-Policy: 
+<< Response: 200
+<< Server: nginx/1.16.0
+<< Vary: Accept-Encoding
+<< Vary: Accept-Encoding,User-Agent,Origin
+<< X-Ezoic-Cdn: Hit ds;mm;50f384a6c338c2c54f2a0041e485b435;2-133674-2;f3fe9dd3-1eb3-4822-62cc-b24b4b069622
+<< X-Middleton-Display: staticcontent_sol, staticcontent_sol
+<< X-Middleton-Response: 200
+<< X-Sol: pub_site
+<< Content-Length: 725
+Connection can be kept alive indefinitely
+Parsing response as: application/json
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "[{"0":"2036","id":"2036","1":"Hoy4534","employee_name":"Hoy4534","2":"15000","employee_salary":"15000","3":"27","employee_age":"27"},{"0":"2037","id":"2037","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2038","id":"2038","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2039","id":"2039","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2040","id":"2040","1":"Kesav12","employee_name":"Kesav12","2":"15000","employee_salary":"15000","3":"33","employee_age":"33"},{"0":"2041","id":"2041","1":"Kesav123","employee_name":"Kesav123","2":"150000","employee_salary":"150000","3":"34","employee_age":"34"}]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@74aa9c72
+Connection can be kept alive indefinitely
+RESPONSE BODY -> 
+[{"0":"2036","id":"2036","1":"Hoy4534","employee_name":"Hoy4534","2":"15000","employee_salary":"15000","3":"27","employee_age":"27"},{"0":"2037","id":"2037","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2038","id":"2038","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2039","id":"2039","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2040","id":"2040","1":"Kesav12","employee_name":"Kesav12","2":"15000","employee_salary":"15000","3":"33","employee_age":"33"},{"0":"2041","id":"2041","1":"Kesav123","employee_name":"Kesav123","2":"150000","employee_salary":"150000","3":"34","employee_age":"34"}]
+CONTENT TYPE -> 
+application/json
+RESPONSE TIME -> 
+1162
+STASTUS CODE -> 
+200
+~~~~~~~~~~~~~~~DONE~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~Starting to get all employee info~~~~~~~~~~~~~~~~~~~
+Get connection for route {}->http://restapiexample.com:80
+Connecting to restapiexample.com:80
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/v1/employees HTTP/1.1
+ >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: restapiexample.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/v1/employees HTTP/1.1
+>> Accept: */*
+>> Host: restapiexample.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Cache-Control: max-age=31536000[\r][\n]"
+ << "Content-Type: application/json[\r][\n]"
+ << "Date: Mon, 22 Mar 2021 11:12:27 GMT[\r][\n]"
+ << "Display: staticcontent_sol, staticcontent_sol[\r][\n]"
+ << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+ << "Referrer-Policy: [\r][\n]"
+ << "Response: 200[\r][\n]"
+ << "Server: nginx/1.16.0[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+ << "X-Ezoic-Cdn: Hit ds;mm;50f384a6c338c2c54f2a0041e485b435;2-133674-2;4ec33b52-da54-49d5-632a-86e78b58f745[\r][\n]"
+ << "X-Middleton-Display: staticcontent_sol, staticcontent_sol[\r][\n]"
+ << "X-Middleton-Response: 200[\r][\n]"
+ << "X-Sol: pub_site[\r][\n]"
+ << "Content-Length: 457[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Cache-Control: max-age=31536000
+<< Content-Type: application/json
+<< Date: Mon, 22 Mar 2021 11:12:27 GMT
+<< Display: staticcontent_sol, staticcontent_sol
+<< Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+<< Referrer-Policy: 
+<< Response: 200
+<< Server: nginx/1.16.0
+<< Vary: Accept-Encoding
+<< Vary: Accept-Encoding,User-Agent,Origin
+<< X-Ezoic-Cdn: Hit ds;mm;50f384a6c338c2c54f2a0041e485b435;2-133674-2;4ec33b52-da54-49d5-632a-86e78b58f745
+<< X-Middleton-Display: staticcontent_sol, staticcontent_sol
+<< X-Middleton-Response: 200
+<< X-Sol: pub_site
+<< Content-Length: 457
+Connection can be kept alive indefinitely
+Parsing response as: application/json
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "[{"0":"2036","id":"2036","1":"Hoy4534","employee_name":"Hoy4534","2":"15000","employee_salary":"15000","3":"27","employee_age":"27"},{"0":"2037","id":"2037","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2038","id":"2038","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2039","id":"2039","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"}]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@373f7450
+Connection can be kept alive indefinitely
+RESPONSE BODY -> 
+[{"0":"2036","id":"2036","1":"Hoy4534","employee_name":"Hoy4534","2":"15000","employee_salary":"15000","3":"27","employee_age":"27"},{"0":"2037","id":"2037","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2038","id":"2038","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2039","id":"2039","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"}]
+CONTENT TYPE -> 
+application/json
+RESPONSE TIME -> 
+12819
+STASTUS CODE -> 
+200
+~~~~~~~~~~~~~~~DONE~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~Starting to get all employee info~~~~~~~~~~~~~~~~~~~
+Get connection for route {}->http://restapiexample.com:80
+Connecting to restapiexample.com:80
+CookieSpec selected: ignoreCookies
+Auth cache not set in the context
+Target auth state: UNCHALLENGED
+Proxy auth state: UNCHALLENGED
+Attempt 1 to execute request
+Sending request: GET /api/v1/employees HTTP/1.1
+ >> "GET /api/v1/employees HTTP/1.1[\r][\n]"
+ >> "Accept: */*[\r][\n]"
+ >> "Host: restapiexample.com[\r][\n]"
+ >> "Connection: Keep-Alive[\r][\n]"
+ >> "User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)[\r][\n]"
+ >> "Accept-Encoding: gzip,deflate[\r][\n]"
+ >> "[\r][\n]"
+>> GET /api/v1/employees HTTP/1.1
+>> Accept: */*
+>> Host: restapiexample.com
+>> Connection: Keep-Alive
+>> User-Agent: Apache-HttpClient/4.5.3 (Java/15.0.2)
+>> Accept-Encoding: gzip,deflate
+ << "HTTP/1.1 200 OK[\r][\n]"
+ << "Cache-Control: max-age=31536000[\r][\n]"
+ << "Content-Type: application/json[\r][\n]"
+ << "Date: Mon, 22 Mar 2021 11:13:50 GMT[\r][\n]"
+ << "Display: staticcontent_sol, staticcontent_sol[\r][\n]"
+ << "Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==[\r][\n]"
+ << "Referrer-Policy: [\r][\n]"
+ << "Response: 200[\r][\n]"
+ << "Server: nginx/1.16.0[\r][\n]"
+ << "Vary: Accept-Encoding[\r][\n]"
+ << "Vary: Accept-Encoding,User-Agent,Origin[\r][\n]"
+ << "X-Ezoic-Cdn: Hit ds;mm;50f384a6c338c2c54f2a0041e485b435;2-133674-2;4ec33b52-da54-49d5-632a-86e78b58f745[\r][\n]"
+ << "X-Middleton-Display: staticcontent_sol, staticcontent_sol[\r][\n]"
+ << "X-Middleton-Response: 200[\r][\n]"
+ << "X-Sol: pub_site[\r][\n]"
+ << "Content-Length: 457[\r][\n]"
+ << "[\r][\n]"
+Receiving response: HTTP/1.1 200 OK
+<< HTTP/1.1 200 OK
+<< Cache-Control: max-age=31536000
+<< Content-Type: application/json
+<< Date: Mon, 22 Mar 2021 11:13:50 GMT
+<< Display: staticcontent_sol, staticcontent_sol
+<< Host-Header: c2hhcmVkLmJsdWVob3N0LmNvbQ==
+<< Referrer-Policy: 
+<< Response: 200
+<< Server: nginx/1.16.0
+<< Vary: Accept-Encoding
+<< Vary: Accept-Encoding,User-Agent,Origin
+<< X-Ezoic-Cdn: Hit ds;mm;50f384a6c338c2c54f2a0041e485b435;2-133674-2;4ec33b52-da54-49d5-632a-86e78b58f745
+<< X-Middleton-Display: staticcontent_sol, staticcontent_sol
+<< X-Middleton-Response: 200
+<< X-Sol: pub_site
+<< Content-Length: 457
+Connection can be kept alive indefinitely
+Parsing response as: application/json
+Parsed data to instance of: class org.apache.http.conn.EofSensorInputStream
+ << "[{"0":"2036","id":"2036","1":"Hoy4534","employee_name":"Hoy4534","2":"15000","employee_salary":"15000","3":"27","employee_age":"27"},{"0":"2037","id":"2037","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2038","id":"2038","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2039","id":"2039","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"}]"
+Releasing connection org.apache.http.impl.conn.ManagedClientConnectionImpl@1aac188d
+Connection can be kept alive indefinitely
+RESPONSE BODY -> 
+[{"0":"2036","id":"2036","1":"Hoy4534","employee_name":"Hoy4534","2":"15000","employee_salary":"15000","3":"27","employee_age":"27"},{"0":"2037","id":"2037","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2038","id":"2038","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"},{"0":"2039","id":"2039","1":"","employee_name":"","2":"0","employee_salary":"0","3":"0","employee_age":"0"}]
+CONTENT TYPE -> 
+application/json
+RESPONSE TIME -> 
+1285
+STASTUS CODE -> 
+200
+~~~~~~~~~~~~~~~DONE~~~~~~~~~~~~~~~~~
