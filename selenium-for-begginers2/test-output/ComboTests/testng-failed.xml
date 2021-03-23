@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ComboTests]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="loginTests(failed)">
+    <parameter name="broswer" value="firefox"/>
+    <groups>
+      <run>
+        <include name="login"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.herokuapp.theinternet.LoginTests">
+        <methods>
+          <include name="loginTest"/>
+          <include name="ends"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LoginTests -->
+    </classes>
+  </test> <!-- loginTests(failed) -->
+  <test thread-count="5" name="ParametersUsername(failed)">
+    <parameter name="msg" value="Your username is invalid!"/>
+    <parameter name="ps" value="SuperSecretPassword!"/>
+    <parameter name="broswer" value="firefox"/>
+    <parameter name="us" value="incorrectUsername"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LoginTests">
+        <methods>
+          <include name="incorrectTest"/>
+          <include name="ends"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LoginTests -->
+    </classes>
+  </test> <!-- ParametersUsername(failed) -->
+  <test thread-count="5" name="ParametersPassword(failed)">
+    <parameter name="msg" value="Your password is invalid!"/>
+    <parameter name="ps" value="nopasswordhere"/>
+    <parameter name="broswer" value="chrome"/>
+    <parameter name="us" value="tomsmith"/>
+    <classes>
+      <class name="com.herokuapp.theinternet.LoginTests">
+        <methods>
+          <include name="incorrectTest"/>
+          <include name="ends"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.herokuapp.theinternet.LoginTests -->
+    </classes>
+  </test> <!-- ParametersPassword(failed) -->
+</suite> <!-- Failed suite [ComboTests] -->

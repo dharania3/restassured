@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ComboTests" verbose="1">
+
+	<test name="loginTests">
+	<parameter name="broswer" value="firefox" />
+		<groups>
+			<run>
+				<include name="login" />
+			</run>
+		</groups>
+
+		<classes>
+
+			<class name="com.herokuapp.theinternet.LoginTests" />
+		</classes>
+	</test>
+
+	<test name="ParametersUsername">
+		<parameter name="broswer" value="firefox" />
+		<parameter name="us" value="incorrectUsername" />
+		<parameter name="ps" value="SuperSecretPassword!" />
+		<parameter name="msg" value="Your username is invalid!" />
+		<classes>
+			<class name="com.herokuapp.theinternet.LoginTests" >
+			<methods>
+					<include name="incorrectTest" />
+				</methods>
+				</class>
+		</classes>
+	</test>
+
+	<test name="ParametersPassword">
+		<parameter name="broswer" value="chrome" />
+		<parameter name="us" value="tomsmith" />
+		<parameter name="ps" value="nopasswordhere" />
+		<parameter name="msg" value="Your password is invalid!" />
+		<classes>
+			<class name="com.herokuapp.theinternet.LoginTests">
+				<methods>
+					<include name="incorrectTest" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
